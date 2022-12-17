@@ -39,8 +39,11 @@ body{
 }
 .container{
     padding: 10px 5%;
+<<<<<<< HEAD
     width: 100%;
     min-height: 100vh;
+=======
+>>>>>>> e5ae9d25fbc4dc5bfa8fe6f69cd22b81d5efc3bb
 
 }
 nav{
