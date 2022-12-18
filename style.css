@@ -1,6 +1,4 @@
-:root{
-    --header-height:3rem;
-}
+
 *{
     margin:0;
     padding :0;
@@ -39,11 +37,9 @@ body{
 }
 .container{
     padding: 10px 5%;
-<<<<<<< HEAD
+
     width: 100%;
     min-height: 100vh;
-=======
->>>>>>> e5ae9d25fbc4dc5bfa8fe6f69cd22b81d5efc3bb
 
 }
 nav{
@@ -99,22 +95,30 @@ nav ul li a:hover::after{
     margin-top: 20%;
 }
 .header-text h3{
+    margin-top: 1%;
+    animation-delay: 1s;
     font-size: 30px;
     margin-left: 40%;
-    margin-top: 0%;
+   
 }
 
 
 .header-text h1 span{
     color: #0c60dd;
 }
+.header-text h3 span{
+    color: #0c60dd;
+}
+
+
 
 .image-box {
    
     position: absolute;
    bottom: 0;
    top: 15%;
-    left: 10%;    
+    left: 10%;   
+    height: 100vh; 
 }
 .image-box img{
     position: relative;
@@ -477,6 +481,13 @@ img{
   }
   
     .header-text h1{
+     
+        display: block;
+  margin-left: 10px;
+       z-index: 2;
+        font-size: 20px;
+    }
+    .header-text h3{
      
         display: block;
   margin-left: 10px;
