@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <script src="https://kit.fontawesome.com/4662f641df.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id = "header">
+
+        <div class="container">
+
+            <nav>
+               <!----- <img src="images/logo1.png" class="logo">-->
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                  <!---- <li><a href="#services">Services</a></li>-->
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()" ></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1 class="anim">Hi, I'm <span class="anim">Kalyan Gudise</span></h1>
+          <h3 class="anim">I'm a <span class="auto-type"></span></h3>
+            </div>
+            
+      <!---   <div class="image-box">
+                <img  src="images/background.png" class="image anim">
+                </div>
+              <div class="pattern">
+                 <img src="images/background.1.png" class="patt" >
+                   <img src="images/background.1.png" >
+
+                
+            </div>-->
+
+        <video id="backvideo" autoplay loop muted  class="back-video">
+            <source src="images/km_20221219_1440p.mp4" type="video/mp4">
+                
+            </video>
+            <video id="back-video" autoplay loop muted  class="backvideo">
+                <source src="images/km_20221221-1_1440p.mp4" type="video/mp4">
+                    
+                </video>
+            
+        </div>
+    </div>
+
+   <!--About--> 
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1" data-aos="zoom-in-up" data-aos-duration="100000" >
+                <img src="images/user.jpg"  >
+
+            </div>
+                
+                <div class="about-col-2"data-aos="zoom-in-up" data-aos-duration="100000" >
+                    <h1 class="subtitle"  >About Me</h1>
+                    <p class="aboutme" >My name is Kalyan Gudise. I pursued my bachelor's degree in "Computer Science". Now, I am looking for my first full-time job. I am always open to challenges and constructive feedback. I am open-minded and learn new things quickly. I want to become a team player and dedicate all my skills and talents to develop high-quality and unique products which will help me for my career growth. </p>
+                    <div class="tab-titles" >
+                        <p class="tab-links active-links" onclick="opentab('Skills')" >Skills</p>
+                        <p class="tab-links"onclick="opentab('Education')">Education</p>
+
+                    </div>
+       <div class="tab-contents active-tab" id="Skills">
+          <ul>
+        <li><span>Programming Languages</span><br>C, Java with Data Structures & Algorithms</li>
+        <li><span>SQL</span><br>MySQL</li>
+        <li><span>Web-Technologies</span><br>HTML, CSS, JavaScript</li>
+
+        </ul>
+</div>
+<div class="tab-contents"id="Education">
+    <ul>
+        <li><span>2019-2022</span><br>B.Sc from Governmnet City College, Hyderabad</li>
+        <li><span>2017-2019</span><br>Intermediate from Sri Kakatiya Jr College, Hyderabad</li>
+        <li><span>2016-2017</span><br>SSC from Divya Jyothi High School, Hyderabad</li>
+
+    </ul>
+</div>
+
+                
+            </div>
+        </div>
+        </div>
+    </div>
+    <!--Services---->
+<!----<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="service-list">
+           <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>klayna</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, consectetur.</p>
+                <a href="#">learnmore</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>klayna</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, consectetur.</p>
+                <a href="#">learnmore</a>
+            </div>
+        <div>
+                <i class="fa-solid fa-file-code"></i>
+                <h2>klayna</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus, consectetur.</p>
+                <a href="#">learnmore</a>
+            </div>-->
+
+        </div>
+
+    </div>
+</div>
+<!----Portfolio----->
+
+<div id="portfolio">
+    <div class="container" >
+        <h1 class="subtitle" data-aos="zoom-in-up" data-aos-duration="100000" >My Work</h1>
+        <div class="work-list" data-aos="zoom-in-up" data-aos-duration="100000" data-aos-delay="100">
+            <div class="work">
+                <img src="images/IMG_20221211_134834.png">
+                <div class="layer">
+                    <h3>Portfolio</h3>
+                    <p>Created my own Portfolio using Web-Technologies like HTML, CSS & JavaScript</p>
+                    <a href="https://kalyan-gudise.github.io/Kalyan-Gudise-Portfolio.github.io/"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    
+                </div>
+                
+            </div>
+            <div class="work" data-aos="zoom-in-up" data-aos-duration="100000">
+                <img src="images/IMG_20221211_134848.jpg">
+                <div class="layer">
+                    <h3 >Hotel Management System</h3>
+                    <p>Built a desktop based application with the concept of Java Swings & AWT with MySQL Database for Hotel Management that manages the process like adding rooms, cabs etc.</p>
+                    <a href="https://github.com/kalyan-gudise/Hotel-Management-System"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    
+                </div>
+            </div>
+
+        </div>
+        <a href="#header"class ="btn"  data-aos="zoom-in-up" data-aos-duration="100000" data-aos-delay="100">See More</a>
+    </div>
+</div>
+
+<!------------Contact-->
+
+<div id="contact">
+    <div class="container" data-aos="zoom-in-up" data-aos-duration="100000">
+        <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i> kalyanbabblu95@gamil.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>+91 7095421449</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/Bangaram.babbu098?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://instagram.com/babblu__kalyan?igshid=MTg0ZDhmNDA="><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/kalyan-gudise-004a07256"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="images/Kalyan Gudise.pdf" download class="btn btn2" >Download Resume</a>
+        </div>
+            <div class="contact-right"  data-aos="zoom-in-up" data-aos-duration="100000" data-aos-delay="300">
+<form  name="submit-to-google-sheet">
+    <input type="text" name="Name" placeholder="Your Name" required>
+    <input type="email" name="E-Mail" placeholder="Your Email" required>
+    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+    <button type="submit" class="btn btn2">Submit</button>
+</form>
+<span id="msg"></span>
+            </div>
+    </div>
+    </div>
+    <div class="copyright">
+        <p>Created by Kalyan &#128526<i class="fa-solid fa-face-saluting"></i> </p>
+    </div>
+
+</div>
+
+    <script>
+          var tablinks = document.getElementsByClassName("tab-links");
+          var tabcontents = document.getElementsByClassName("tab-contents");
+          function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-links");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+          }
+    </script>
+    <script>
+        var sidemenu= document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.left="0";
+        }
+        function closemenu(){
+            sidemenu.style.left="-100%";
+        }
+
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxrKkeC555cUXyBSdb_G1JXRuitJ9O5FgEy53bLkzNw8MQnuYUGOeptxSOItFH-RtlNAA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent Successfully"
+                setTimeout(function(){
+                    msg.innerHTML=""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed = new Typed(".auto-type", {
+        strings: ["Coder", "Developer"],
+        typeSpeed:150,
+        backSpeed:150,
+        loop:true
+    })
+</script>
+</body>
+</html>
